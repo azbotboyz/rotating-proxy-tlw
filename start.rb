@@ -100,6 +100,8 @@ module Service
         "--SocksPort #{port}",
 	"--ControlPort #{control_port}",
         "--NewCircuitPeriod 15",
+	"--EntryNodes {vn},{jp},{sg},{tw},{hk},{kr},{th}",
+	"--ExitNodes {vn},{jp},{sg},{tw},{hk},{kr},{th}",
 	"--MaxCircuitDirtiness 15",
 	"--UseEntryGuards 0",
 	"--UseEntryGuardsAsDirGuards 0",
